@@ -20,9 +20,9 @@ public class AdoteUmPetApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		var pet = new Pet();
-		pet.setNome("Joãzinho");
-		pet.setHistoria("Historia emocionante");
-		pet.setFoto("http://www.exemplo.com.br/foto.png");
+		pet.setNome("Leka");
+		pet.setHistoria("Muito animada, adora brincar de bolinha");
+		pet.setFoto("https://imgur.com/vDYz7qp.jpeg");
 		petRepository.save(pet);
 	}
 

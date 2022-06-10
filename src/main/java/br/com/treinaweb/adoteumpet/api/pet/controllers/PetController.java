@@ -25,7 +25,7 @@ public class PetController {
 
         return petService.findAll();
     }
-
+    
     @PostMapping
     @ResponseStatus(code = HttpStatus.CREATED)
     public PetResponse create(@RequestBody @Valid PetRequest petRequest) {
